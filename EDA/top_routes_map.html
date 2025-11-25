@@ -1,0 +1,2181 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_e594c296fc554d53dd703387fb85bc47 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_e594c296fc554d53dd703387fb85bc47" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_e594c296fc554d53dd703387fb85bc47 = L.map(
+                "map_e594c296fc554d53dd703387fb85bc47",
+                {
+                    center: [41.881832, -87.623177],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 12,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_02f17ed0aecf952d7c9d3bce824bca66 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_02f17ed0aecf952d7c9d3bce824bca66.addTo(map_e594c296fc554d53dd703387fb85bc47);
+        
+    
+            var poly_line_7784c3aab7e2512d38899a649721bc17 = L.polyline(
+                [[41.86610816666666, -87.60732416666667], [41.866095, -87.607267]],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 4}
+            ).addTo(map_e594c296fc554d53dd703387fb85bc47);
+        
+    
+            var circle_marker_0af5ccbac76ddc2d07c523de229f7478 = L.circleMarker(
+                [41.86610816666666, -87.60732416666667],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_e594c296fc554d53dd703387fb85bc47);
+        
+    
+        var popup_8f4c139fe5395d344abbfedafe023a0a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5b62fde0e26899913da1060ba1d57872 = $(`<div id="html_5b62fde0e26899913da1060ba1d57872" style="width: 100.0%; height: 100.0%;">Start: Adler Planetarium</div>`)[0];
+                popup_8f4c139fe5395d344abbfedafe023a0a.setContent(html_5b62fde0e26899913da1060ba1d57872);
+            
+        
+
+        circle_marker_0af5ccbac76ddc2d07c523de229f7478.bindPopup(popup_8f4c139fe5395d344abbfedafe023a0a)
+        ;
+
+        
+    
+    
+            var circle_marker_69d4697915e5118351e842fd0aab56f5 = L.circleMarker(
+                [41.866095, -87.607267],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_e594c296fc554d53dd703387fb85bc47);
+        
+    
+        var popup_4823b67f3e69761e74ef578ab06536c4 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4b53fe614ad1117c9c9bea3310c77cca = $(`<div id="html_4b53fe614ad1117c9c9bea3310c77cca" style="width: 100.0%; height: 100.0%;">End: Adler Planetarium</div>`)[0];
+                popup_4823b67f3e69761e74ef578ab06536c4.setContent(html_4b53fe614ad1117c9c9bea3310c77cca);
+            
+        
+
+        circle_marker_69d4697915e5118351e842fd0aab56f5.bindPopup(popup_4823b67f3e69761e74ef578ab06536c4)
+        ;
+
+        
+    
+    
+            var poly_line_52d8af97d76a63118cccc144fffa98b5 = L.polyline(
+                [[41.787927866, -87.590630174], [41.791478, -87.599861]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 4}
+            ).addTo(map_e594c296fc554d53dd703387fb85bc47);
+        
+    
+            var circle_marker_fcf064744cb7c2aad34150f6012e49f5 = L.circleMarker(
+                [41.787927866, -87.590630174],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_e594c296fc554d53dd703387fb85bc47);
+        
+    
+        var popup_c25e537cfa37f22e131c727443608f38 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_59f2bedd2522a73ffb870e18a0856d09 = $(`<div id="html_59f2bedd2522a73ffb870e18a0856d09" style="width: 100.0%; height: 100.0%;">Start: Blackstone Ave & 59th St</div>`)[0];
+                popup_c25e537cfa37f22e131c727443608f38.setContent(html_59f2bedd2522a73ffb870e18a0856d09);
+            
+        
+
+        circle_marker_fcf064744cb7c2aad34150f6012e49f5.bindPopup(popup_c25e537cfa37f22e131c727443608f38)
+        ;
+
+        
+    
+    
+            var circle_marker_2532cf5649d0aa10803b8a18c6e148e2 = L.circleMarker(
+                [41.791478, -87.599861],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_e594c296fc554d53dd703387fb85bc47);
+        
+    
+        var popup_35ce516564faac72afcf45787865a627 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_82980008545ad048a33d9f36290665f8 = $(`<div id="html_82980008545ad048a33d9f36290665f8" style="width: 100.0%; height: 100.0%;">End: University Ave & 57th St</div>`)[0];
+                popup_35ce516564faac72afcf45787865a627.setContent(html_82980008545ad048a33d9f36290665f8);
+            
+        
+
+        circle_marker_2532cf5649d0aa10803b8a18c6e148e2.bindPopup(popup_35ce516564faac72afcf45787865a627)
+        ;
+
+        
+    
+    
+            var poly_line_1e71b3a6e14aa400a22090e84d4c7852 = L.polyline(
+                [[41.876665, -87.620483], [41.876665, -87.620483]],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 4}
+            ).addTo(map_e594c296fc554d53dd703387fb85bc47);
+        
+    
+            var circle_marker_ab7082e1b0b920ad5f279d47efc244af = L.circleMarker(
+                [41.876665, -87.620483],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_e594c296fc554d53dd703387fb85bc47);
+        
+    
+        var popup_cca976421ce203519068eaf9f598b482 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_035c05787106fb4adea3130858cfa0b0 = $(`<div id="html_035c05787106fb4adea3130858cfa0b0" style="width: 100.0%; height: 100.0%;">Start: Buckingham Fountain</div>`)[0];
+                popup_cca976421ce203519068eaf9f598b482.setContent(html_035c05787106fb4adea3130858cfa0b0);
+            
+        
+
+        circle_marker_ab7082e1b0b920ad5f279d47efc244af.bindPopup(popup_cca976421ce203519068eaf9f598b482)
+        ;
+
+        
+    
+    
+            var circle_marker_c703421b4c9c5e96c52bbc312ba1b6d5 = L.circleMarker(
+                [41.876665, -87.620483],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_e594c296fc554d53dd703387fb85bc47);
+        
+    
+        var popup_2a7f67b6fe3691ff3d649c5cc7207152 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_cc3133478db25f42567dd7f8e21878eb = $(`<div id="html_cc3133478db25f42567dd7f8e21878eb" style="width: 100.0%; height: 100.0%;">End: Buckingham Fountain</div>`)[0];
+                popup_2a7f67b6fe3691ff3d649c5cc7207152.setContent(html_cc3133478db25f42567dd7f8e21878eb);
+            
+        
+
+        circle_marker_c703421b4c9c5e96c52bbc312ba1b6d5.bindPopup(popup_2a7f67b6fe3691ff3d649c5cc7207152)
+        ;
+
+        
+    
+    
+            var poly_line_6549b1933b21fe4b3754804bdbf15015 = L.polyline(
+                [[41.8349, -87.61793], [41.834734, -87.625813]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 4}
+            ).addTo(map_e594c296fc554d53dd703387fb85bc47);
+        
+    
+            var circle_marker_910de6f0540a7e8ada461b4036d58fd0 = L.circleMarker(
+                [41.8349, -87.61793],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_e594c296fc554d53dd703387fb85bc47);
+        
+    
+        var popup_9569aa94555df1c7264b71dd0767266d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7ffd2a89befd1021be6c4ce27642f6c0 = $(`<div id="html_7ffd2a89befd1021be6c4ce27642f6c0" style="width: 100.0%; height: 100.0%;">Start: Calumet Ave & 33rd St</div>`)[0];
+                popup_9569aa94555df1c7264b71dd0767266d.setContent(html_7ffd2a89befd1021be6c4ce27642f6c0);
+            
+        
+
+        circle_marker_910de6f0540a7e8ada461b4036d58fd0.bindPopup(popup_9569aa94555df1c7264b71dd0767266d)
+        ;
+
+        
+    
+    
+            var circle_marker_c9f03bda3b4c7aa715d11635295c7c6d = L.circleMarker(
+                [41.834734, -87.625813],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_e594c296fc554d53dd703387fb85bc47);
+        
+    
+        var popup_b1999d3e1699164b987b753466d67485 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d2c9fdb7b06c5f1924b868460fad0f53 = $(`<div id="html_d2c9fdb7b06c5f1924b868460fad0f53" style="width: 100.0%; height: 100.0%;">End: State St & 33rd St</div>`)[0];
+                popup_b1999d3e1699164b987b753466d67485.setContent(html_d2c9fdb7b06c5f1924b868460fad0f53);
+            
+        
+
+        circle_marker_c9f03bda3b4c7aa715d11635295c7c6d.bindPopup(popup_b1999d3e1699164b987b753466d67485)
+        ;
+
+        
+    
+    
+            var poly_line_34b9dd8c2091fd6f877ca8487c9a332d = L.polyline(
+                [[41.893992, -87.629318], [41.893992, -87.629318]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 4}
+            ).addTo(map_e594c296fc554d53dd703387fb85bc47);
+        
+    
+            var circle_marker_20478a0079086d6e93258371ce20fddc = L.circleMarker(
+                [41.893992, -87.629318],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_e594c296fc554d53dd703387fb85bc47);
+        
+    
+        var popup_c8b1faa626f6b5cf849c8a8c052fc4b4 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0dfec857e92202c799be5d1abe93ccad = $(`<div id="html_0dfec857e92202c799be5d1abe93ccad" style="width: 100.0%; height: 100.0%;">Start: Dearborn St & Erie St</div>`)[0];
+                popup_c8b1faa626f6b5cf849c8a8c052fc4b4.setContent(html_0dfec857e92202c799be5d1abe93ccad);
+            
+        
+
+        circle_marker_20478a0079086d6e93258371ce20fddc.bindPopup(popup_c8b1faa626f6b5cf849c8a8c052fc4b4)
+        ;
+
+        
+    
+    
+            var circle_marker_d90b6b089af0b3f11aa6b3f14bb3b873 = L.circleMarker(
+                [41.893992, -87.629318],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_e594c296fc554d53dd703387fb85bc47);
+        
+    
+        var popup_a6f451162336c28746b68428687632db = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6e23e88162264d994c3c84224dfefbc0 = $(`<div id="html_6e23e88162264d994c3c84224dfefbc0" style="width: 100.0%; height: 100.0%;">End: Dearborn St & Erie St</div>`)[0];
+                popup_a6f451162336c28746b68428687632db.setContent(html_6e23e88162264d994c3c84224dfefbc0);
+            
+        
+
+        circle_marker_d90b6b089af0b3f11aa6b3f14bb3b873.bindPopup(popup_a6f451162336c28746b68428687632db)
+        ;
+
+        
+    
+    
+            var poly_line_77122fe519fa9d2781392ff23c17f6ac = L.polyline(
+                [[41.880958, -87.616743], [41.880958, -87.616743]],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 4}
+            ).addTo(map_e594c296fc554d53dd703387fb85bc47);
+        
+    
+            var circle_marker_e0c41fb4299e96751b3e438ab37ef148 = L.circleMarker(
+                [41.880958, -87.616743],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_e594c296fc554d53dd703387fb85bc47);
+        
+    
+        var popup_d549143426549be7462563b2ff625dfc = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c74123bf67839665f05573f38cff9ef1 = $(`<div id="html_c74123bf67839665f05573f38cff9ef1" style="width: 100.0%; height: 100.0%;">Start: DuSable Lake Shore Dr & Monroe St</div>`)[0];
+                popup_d549143426549be7462563b2ff625dfc.setContent(html_c74123bf67839665f05573f38cff9ef1);
+            
+        
+
+        circle_marker_e0c41fb4299e96751b3e438ab37ef148.bindPopup(popup_d549143426549be7462563b2ff625dfc)
+        ;
+
+        
+    
+    
+            var circle_marker_e2457f08032689de3a20eeeb06d4cb11 = L.circleMarker(
+                [41.880958, -87.616743],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_e594c296fc554d53dd703387fb85bc47);
+        
+    
+        var popup_0e13f8b32d5c5e661790460664556b74 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_55bc968b286621c57b8c1f33338fdab3 = $(`<div id="html_55bc968b286621c57b8c1f33338fdab3" style="width: 100.0%; height: 100.0%;">End: DuSable Lake Shore Dr & Monroe St</div>`)[0];
+                popup_0e13f8b32d5c5e661790460664556b74.setContent(html_55bc968b286621c57b8c1f33338fdab3);
+            
+        
+
+        circle_marker_e2457f08032689de3a20eeeb06d4cb11.bindPopup(popup_0e13f8b32d5c5e661790460664556b74)
+        ;
+
+        
+    
+    
+            var poly_line_bc2992379db6b41b78d8f5bf902cc9a0 = L.polyline(
+                [[41.881064773, -87.616805553], [41.886976, -87.612813]],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 4}
+            ).addTo(map_e594c296fc554d53dd703387fb85bc47);
+        
+    
+            var circle_marker_bc9d2164d0daf2b2c069bc7f38cffa68 = L.circleMarker(
+                [41.881064773, -87.616805553],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_e594c296fc554d53dd703387fb85bc47);
+        
+    
+        var popup_7a9aa260d6b03523f83fccfd921109b2 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3afba8b85b10e10c9490efd18aed8b76 = $(`<div id="html_3afba8b85b10e10c9490efd18aed8b76" style="width: 100.0%; height: 100.0%;">Start: DuSable Lake Shore Dr & Monroe St</div>`)[0];
+                popup_7a9aa260d6b03523f83fccfd921109b2.setContent(html_3afba8b85b10e10c9490efd18aed8b76);
+            
+        
+
+        circle_marker_bc9d2164d0daf2b2c069bc7f38cffa68.bindPopup(popup_7a9aa260d6b03523f83fccfd921109b2)
+        ;
+
+        
+    
+    
+            var circle_marker_d1315f50db945313652af74c3bb301be = L.circleMarker(
+                [41.886976, -87.612813],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_e594c296fc554d53dd703387fb85bc47);
+        
+    
+        var popup_870ce699bcb76de6414e9863355aaefa = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7c72b621d400f9101eb0b586544d55ca = $(`<div id="html_7c72b621d400f9101eb0b586544d55ca" style="width: 100.0%; height: 100.0%;">End: Dusable Harbor</div>`)[0];
+                popup_870ce699bcb76de6414e9863355aaefa.setContent(html_7c72b621d400f9101eb0b586544d55ca);
+            
+        
+
+        circle_marker_d1315f50db945313652af74c3bb301be.bindPopup(popup_870ce699bcb76de6414e9863355aaefa)
+        ;
+
+        
+    
+    
+            var poly_line_6eee61d066a011efd731a80827cc6492 = L.polyline(
+                [[41.880953166666664, -87.61678183333333], [41.86722595682, -87.6153553902]],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 4}
+            ).addTo(map_e594c296fc554d53dd703387fb85bc47);
+        
+    
+            var circle_marker_b6a67cc127598aa6d806482e08e32e20 = L.circleMarker(
+                [41.880953166666664, -87.61678183333333],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_e594c296fc554d53dd703387fb85bc47);
+        
+    
+        var popup_39bd6f5e8185475058ec8adc4500a509 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_47156f2b03cba64bf6efeadc7e9578c4 = $(`<div id="html_47156f2b03cba64bf6efeadc7e9578c4" style="width: 100.0%; height: 100.0%;">Start: DuSable Lake Shore Dr & Monroe St</div>`)[0];
+                popup_39bd6f5e8185475058ec8adc4500a509.setContent(html_47156f2b03cba64bf6efeadc7e9578c4);
+            
+        
+
+        circle_marker_b6a67cc127598aa6d806482e08e32e20.bindPopup(popup_39bd6f5e8185475058ec8adc4500a509)
+        ;
+
+        
+    
+    
+            var circle_marker_fbf28d233c2f5cacf18cb0a5849066d0 = L.circleMarker(
+                [41.86722595682, -87.6153553902],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_e594c296fc554d53dd703387fb85bc47);
+        
+    
+        var popup_626bae08189c52a0c23d100e867d6420 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8c29afa4026fd1b88964272870ea55c0 = $(`<div id="html_8c29afa4026fd1b88964272870ea55c0" style="width: 100.0%; height: 100.0%;">End: Shedd Aquarium</div>`)[0];
+                popup_626bae08189c52a0c23d100e867d6420.setContent(html_8c29afa4026fd1b88964272870ea55c0);
+            
+        
+
+        circle_marker_fbf28d233c2f5cacf18cb0a5849066d0.bindPopup(popup_626bae08189c52a0c23d100e867d6420)
+        ;
+
+        
+    
+    
+            var poly_line_a589bf8ad769f3e0cdbd42825b9fd35d = L.polyline(
+                [[41.881015778, -87.616754055], [41.892278, -87.612043]],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 4}
+            ).addTo(map_e594c296fc554d53dd703387fb85bc47);
+        
+    
+            var circle_marker_b0bb601966128a706a8625114a0e9d4f = L.circleMarker(
+                [41.881015778, -87.616754055],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_e594c296fc554d53dd703387fb85bc47);
+        
+    
+        var popup_251c73cbc8ad4c0b770573d19858c093 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_24def909189474f291d30c99cfdaf6f2 = $(`<div id="html_24def909189474f291d30c99cfdaf6f2" style="width: 100.0%; height: 100.0%;">Start: DuSable Lake Shore Dr & Monroe St</div>`)[0];
+                popup_251c73cbc8ad4c0b770573d19858c093.setContent(html_24def909189474f291d30c99cfdaf6f2);
+            
+        
+
+        circle_marker_b0bb601966128a706a8625114a0e9d4f.bindPopup(popup_251c73cbc8ad4c0b770573d19858c093)
+        ;
+
+        
+    
+    
+            var circle_marker_52ea97ff5852f67e74f9c7ba8abecf38 = L.circleMarker(
+                [41.892278, -87.612043],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_e594c296fc554d53dd703387fb85bc47);
+        
+    
+        var popup_025395557da8e48c021f3e70421575f1 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_65c55d5a68dc9f2af8544d45d8f5fe85 = $(`<div id="html_65c55d5a68dc9f2af8544d45d8f5fe85" style="width: 100.0%; height: 100.0%;">End: Streeter Dr & Grand Ave</div>`)[0];
+                popup_025395557da8e48c021f3e70421575f1.setContent(html_65c55d5a68dc9f2af8544d45d8f5fe85);
+            
+        
+
+        circle_marker_52ea97ff5852f67e74f9c7ba8abecf38.bindPopup(popup_025395557da8e48c021f3e70421575f1)
+        ;
+
+        
+    
+    
+            var poly_line_6c06e4955e9367206d59d529bdc5c311 = L.polyline(
+                [[41.911722, -87.626804], [41.911722, -87.626804]],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 4}
+            ).addTo(map_e594c296fc554d53dd703387fb85bc47);
+        
+    
+            var circle_marker_fa24bb4c74f764a0809dfb3aafdfe7ce = L.circleMarker(
+                [41.911722, -87.626804],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_e594c296fc554d53dd703387fb85bc47);
+        
+    
+        var popup_8656005d3a22ba8b7cff37f9c7048558 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4636c9e333a034d874aee6d87a701ab5 = $(`<div id="html_4636c9e333a034d874aee6d87a701ab5" style="width: 100.0%; height: 100.0%;">Start: DuSable Lake Shore Dr & North Blvd</div>`)[0];
+                popup_8656005d3a22ba8b7cff37f9c7048558.setContent(html_4636c9e333a034d874aee6d87a701ab5);
+            
+        
+
+        circle_marker_fa24bb4c74f764a0809dfb3aafdfe7ce.bindPopup(popup_8656005d3a22ba8b7cff37f9c7048558)
+        ;
+
+        
+    
+    
+            var circle_marker_ed48ba612e6ff95250d2a5d3c95e4385 = L.circleMarker(
+                [41.911722, -87.626804],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_e594c296fc554d53dd703387fb85bc47);
+        
+    
+        var popup_d10a8673345cc3da095927d14043bb93 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7cfd987ce4b4a4bf153c676f3961eb4a = $(`<div id="html_7cfd987ce4b4a4bf153c676f3961eb4a" style="width: 100.0%; height: 100.0%;">End: DuSable Lake Shore Dr & North Blvd</div>`)[0];
+                popup_d10a8673345cc3da095927d14043bb93.setContent(html_7cfd987ce4b4a4bf153c676f3961eb4a);
+            
+        
+
+        circle_marker_ed48ba612e6ff95250d2a5d3c95e4385.bindPopup(popup_d10a8673345cc3da095927d14043bb93)
+        ;
+
+        
+    
+    
+            var poly_line_7cd45ec76d9b705ca93ae6ab403ef7f7 = L.polyline(
+                [[41.886976, -87.612813], [41.886976, -87.612813]],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 4}
+            ).addTo(map_e594c296fc554d53dd703387fb85bc47);
+        
+    
+            var circle_marker_3c764db9a3d0955aa14521f87aeea8e8 = L.circleMarker(
+                [41.886976, -87.612813],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_e594c296fc554d53dd703387fb85bc47);
+        
+    
+        var popup_655eb1fae2ed84343bb0c0ef8fa6a943 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ef8ad48145135e0aa98f9d5d6da895a7 = $(`<div id="html_ef8ad48145135e0aa98f9d5d6da895a7" style="width: 100.0%; height: 100.0%;">Start: Dusable Harbor</div>`)[0];
+                popup_655eb1fae2ed84343bb0c0ef8fa6a943.setContent(html_ef8ad48145135e0aa98f9d5d6da895a7);
+            
+        
+
+        circle_marker_3c764db9a3d0955aa14521f87aeea8e8.bindPopup(popup_655eb1fae2ed84343bb0c0ef8fa6a943)
+        ;
+
+        
+    
+    
+            var circle_marker_c16ad5319cfb1b21a13c0c3a2f0c9194 = L.circleMarker(
+                [41.886976, -87.612813],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_e594c296fc554d53dd703387fb85bc47);
+        
+    
+        var popup_6c7f117791d3decda65ffa0b2c9c9c3a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6504fce6422929e175a1bbcf46a3217a = $(`<div id="html_6504fce6422929e175a1bbcf46a3217a" style="width: 100.0%; height: 100.0%;">End: Dusable Harbor</div>`)[0];
+                popup_6c7f117791d3decda65ffa0b2c9c9c3a.setContent(html_6504fce6422929e175a1bbcf46a3217a);
+            
+        
+
+        circle_marker_c16ad5319cfb1b21a13c0c3a2f0c9194.bindPopup(popup_6c7f117791d3decda65ffa0b2c9c9c3a)
+        ;
+
+        
+    
+    
+            var poly_line_7f6968549dca3db79646c90a3a68489d = L.polyline(
+                [[41.886976, -87.612813], [41.892278, -87.612043]],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 4}
+            ).addTo(map_e594c296fc554d53dd703387fb85bc47);
+        
+    
+            var circle_marker_3688f74d00f339ed098d82ad52ef569a = L.circleMarker(
+                [41.886976, -87.612813],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_e594c296fc554d53dd703387fb85bc47);
+        
+    
+        var popup_92185b551e57618abc891bac2df54c05 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_cded172ea4a0bb7adddb64018919c98d = $(`<div id="html_cded172ea4a0bb7adddb64018919c98d" style="width: 100.0%; height: 100.0%;">Start: Dusable Harbor</div>`)[0];
+                popup_92185b551e57618abc891bac2df54c05.setContent(html_cded172ea4a0bb7adddb64018919c98d);
+            
+        
+
+        circle_marker_3688f74d00f339ed098d82ad52ef569a.bindPopup(popup_92185b551e57618abc891bac2df54c05)
+        ;
+
+        
+    
+    
+            var circle_marker_39830f52fe85727fc9bf093a7f8d90eb = L.circleMarker(
+                [41.892278, -87.612043],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_e594c296fc554d53dd703387fb85bc47);
+        
+    
+        var popup_dbb9837d113af843961c8a2385189227 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5bc5fd543a3a1fa60a8667fea1af5b06 = $(`<div id="html_5bc5fd543a3a1fa60a8667fea1af5b06" style="width: 100.0%; height: 100.0%;">End: Streeter Dr & Grand Ave</div>`)[0];
+                popup_dbb9837d113af843961c8a2385189227.setContent(html_5bc5fd543a3a1fa60a8667fea1af5b06);
+            
+        
+
+        circle_marker_39830f52fe85727fc9bf093a7f8d90eb.bindPopup(popup_dbb9837d113af843961c8a2385189227)
+        ;
+
+        
+    
+    
+            var poly_line_bce2350d5a135c7418c1ae0db3458709 = L.polyline(
+                [[41.79430062054, -87.6014497734], [41.78509714636, -87.6010727606]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 4}
+            ).addTo(map_e594c296fc554d53dd703387fb85bc47);
+        
+    
+            var circle_marker_796432202c077dfaea0f8900f51896c1 = L.circleMarker(
+                [41.79430062054, -87.6014497734],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_e594c296fc554d53dd703387fb85bc47);
+        
+    
+        var popup_4003ee7fe2a305cb7db636385fa4b114 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a7f03825e5f91ce142caa7976b262280 = $(`<div id="html_a7f03825e5f91ce142caa7976b262280" style="width: 100.0%; height: 100.0%;">Start: Ellis Ave & 55th St</div>`)[0];
+                popup_4003ee7fe2a305cb7db636385fa4b114.setContent(html_a7f03825e5f91ce142caa7976b262280);
+            
+        
+
+        circle_marker_796432202c077dfaea0f8900f51896c1.bindPopup(popup_4003ee7fe2a305cb7db636385fa4b114)
+        ;
+
+        
+    
+    
+            var circle_marker_2f9f43b050a62cb5017f8693828c3183 = L.circleMarker(
+                [41.78509714636, -87.6010727606],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_e594c296fc554d53dd703387fb85bc47);
+        
+    
+        var popup_14187926120a8a8bca9949d3727fb01f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_cce62337371ffb49d2de970e40f54c43 = $(`<div id="html_cce62337371ffb49d2de970e40f54c43" style="width: 100.0%; height: 100.0%;">End: Ellis Ave & 60th St</div>`)[0];
+                popup_14187926120a8a8bca9949d3727fb01f.setContent(html_cce62337371ffb49d2de970e40f54c43);
+            
+        
+
+        circle_marker_2f9f43b050a62cb5017f8693828c3183.bindPopup(popup_14187926120a8a8bca9949d3727fb01f)
+        ;
+
+        
+    
+    
+            var poly_line_14450d3e7196ffe6fb96d84062c9422c = L.polyline(
+                [[41.79430062054, -87.6014497734], [41.799568, -87.594747]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 4}
+            ).addTo(map_e594c296fc554d53dd703387fb85bc47);
+        
+    
+            var circle_marker_c7a16b059294cc5fe91806ac604f98d5 = L.circleMarker(
+                [41.79430062054, -87.6014497734],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_e594c296fc554d53dd703387fb85bc47);
+        
+    
+        var popup_a385531d08d3a00a15134cdfc05490b5 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_fab1aa08bc400548d826afbeb47d3998 = $(`<div id="html_fab1aa08bc400548d826afbeb47d3998" style="width: 100.0%; height: 100.0%;">Start: Ellis Ave & 55th St</div>`)[0];
+                popup_a385531d08d3a00a15134cdfc05490b5.setContent(html_fab1aa08bc400548d826afbeb47d3998);
+            
+        
+
+        circle_marker_c7a16b059294cc5fe91806ac604f98d5.bindPopup(popup_a385531d08d3a00a15134cdfc05490b5)
+        ;
+
+        
+    
+    
+            var circle_marker_2b2981c74d1c5a8616ae6af0d99ed207 = L.circleMarker(
+                [41.799568, -87.594747],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_e594c296fc554d53dd703387fb85bc47);
+        
+    
+        var popup_b111eefe1bb10413fb4b8990862aee77 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_84030155a2a274b092abd727575e8aa3 = $(`<div id="html_84030155a2a274b092abd727575e8aa3" style="width: 100.0%; height: 100.0%;">End: Kimbark Ave & 53rd St</div>`)[0];
+                popup_b111eefe1bb10413fb4b8990862aee77.setContent(html_84030155a2a274b092abd727575e8aa3);
+            
+        
+
+        circle_marker_2b2981c74d1c5a8616ae6af0d99ed207.bindPopup(popup_b111eefe1bb10413fb4b8990862aee77)
+        ;
+
+        
+    
+    
+            var poly_line_854fb920ea22db09656df9f69942ab5c = L.polyline(
+                [[41.78509714636, -87.6010727606], [41.79430062054, -87.6014497734]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 4}
+            ).addTo(map_e594c296fc554d53dd703387fb85bc47);
+        
+    
+            var circle_marker_f8fa77d56e1dc359a4c1ff579be33d46 = L.circleMarker(
+                [41.78509714636, -87.6010727606],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_e594c296fc554d53dd703387fb85bc47);
+        
+    
+        var popup_83e6afde4d78e39e032ceb417c91335d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_628bc3f1ea0242fbd1cb84bfea79ce76 = $(`<div id="html_628bc3f1ea0242fbd1cb84bfea79ce76" style="width: 100.0%; height: 100.0%;">Start: Ellis Ave & 60th St</div>`)[0];
+                popup_83e6afde4d78e39e032ceb417c91335d.setContent(html_628bc3f1ea0242fbd1cb84bfea79ce76);
+            
+        
+
+        circle_marker_f8fa77d56e1dc359a4c1ff579be33d46.bindPopup(popup_83e6afde4d78e39e032ceb417c91335d)
+        ;
+
+        
+    
+    
+            var circle_marker_75cff5e367536e31398956e94e1d454a = L.circleMarker(
+                [41.79430062054, -87.6014497734],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_e594c296fc554d53dd703387fb85bc47);
+        
+    
+        var popup_38340c16689fae834d7e73ecb1a85d43 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_56e4af9d90c77c34bb61f9718ee05b8d = $(`<div id="html_56e4af9d90c77c34bb61f9718ee05b8d" style="width: 100.0%; height: 100.0%;">End: Ellis Ave & 55th St</div>`)[0];
+                popup_38340c16689fae834d7e73ecb1a85d43.setContent(html_56e4af9d90c77c34bb61f9718ee05b8d);
+            
+        
+
+        circle_marker_75cff5e367536e31398956e94e1d454a.bindPopup(popup_38340c16689fae834d7e73ecb1a85d43)
+        ;
+
+        
+    
+    
+            var poly_line_d048a2d7b5bc4885739fc60a07c081ef = L.polyline(
+                [[41.785092592, -87.601145267], [41.791478, -87.599861]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 4}
+            ).addTo(map_e594c296fc554d53dd703387fb85bc47);
+        
+    
+            var circle_marker_2bf960c0f5a15c464ad96cfc7fa20038 = L.circleMarker(
+                [41.785092592, -87.601145267],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_e594c296fc554d53dd703387fb85bc47);
+        
+    
+        var popup_983ae35af055f3c5886f810250874c72 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5503dfc203b2799dafe356d9e54f2b9a = $(`<div id="html_5503dfc203b2799dafe356d9e54f2b9a" style="width: 100.0%; height: 100.0%;">Start: Ellis Ave & 60th St</div>`)[0];
+                popup_983ae35af055f3c5886f810250874c72.setContent(html_5503dfc203b2799dafe356d9e54f2b9a);
+            
+        
+
+        circle_marker_2bf960c0f5a15c464ad96cfc7fa20038.bindPopup(popup_983ae35af055f3c5886f810250874c72)
+        ;
+
+        
+    
+    
+            var circle_marker_623bf688730f362863ae1ae6cf4b0c5f = L.circleMarker(
+                [41.791478, -87.599861],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_e594c296fc554d53dd703387fb85bc47);
+        
+    
+        var popup_5c67de79a9c9b2317cb3d8df0e7cc75b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ae1686ef9eec4c1f486b4af55c7e378c = $(`<div id="html_ae1686ef9eec4c1f486b4af55c7e378c" style="width: 100.0%; height: 100.0%;">End: University Ave & 57th St</div>`)[0];
+                popup_5c67de79a9c9b2317cb3d8df0e7cc75b.setContent(html_ae1686ef9eec4c1f486b4af55c7e378c);
+            
+        
+
+        circle_marker_623bf688730f362863ae1ae6cf4b0c5f.bindPopup(popup_5c67de79a9c9b2317cb3d8df0e7cc75b)
+        ;
+
+        
+    
+    
+            var poly_line_81a35be6994b93d803d42fe4b0e60ed7 = L.polyline(
+                [[41.8679185, -87.62300483333334], [41.867888, -87.623041]],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 4}
+            ).addTo(map_e594c296fc554d53dd703387fb85bc47);
+        
+    
+            var circle_marker_abe0be53e7c08ad641c016cc8d863309 = L.circleMarker(
+                [41.8679185, -87.62300483333334],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_e594c296fc554d53dd703387fb85bc47);
+        
+    
+        var popup_02799162382cbc3ee4270595183fcd92 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a4827118a3e6b871983404352ea64d04 = $(`<div id="html_a4827118a3e6b871983404352ea64d04" style="width: 100.0%; height: 100.0%;">Start: Indiana Ave & Roosevelt Rd</div>`)[0];
+                popup_02799162382cbc3ee4270595183fcd92.setContent(html_a4827118a3e6b871983404352ea64d04);
+            
+        
+
+        circle_marker_abe0be53e7c08ad641c016cc8d863309.bindPopup(popup_02799162382cbc3ee4270595183fcd92)
+        ;
+
+        
+    
+    
+            var circle_marker_e79412659a441a7c3d4263d80aa82b1e = L.circleMarker(
+                [41.867888, -87.623041],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_e594c296fc554d53dd703387fb85bc47);
+        
+    
+        var popup_fa88b5e20c625d851cb3c484a095c60d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_bca2d3c0db083c2266cf5804f21d5dfd = $(`<div id="html_bca2d3c0db083c2266cf5804f21d5dfd" style="width: 100.0%; height: 100.0%;">End: Indiana Ave & Roosevelt Rd</div>`)[0];
+                popup_fa88b5e20c625d851cb3c484a095c60d.setContent(html_bca2d3c0db083c2266cf5804f21d5dfd);
+            
+        
+
+        circle_marker_e79412659a441a7c3d4263d80aa82b1e.bindPopup(popup_fa88b5e20c625d851cb3c484a095c60d)
+        ;
+
+        
+    
+    
+            var poly_line_6af4c8c9350cd138f9d12eaecbe13c26 = L.polyline(
+                [[41.799568, -87.594747], [41.791478, -87.599861]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 4}
+            ).addTo(map_e594c296fc554d53dd703387fb85bc47);
+        
+    
+            var circle_marker_75a7b5ec78d34126c3f0ba2300ada7e4 = L.circleMarker(
+                [41.799568, -87.594747],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_e594c296fc554d53dd703387fb85bc47);
+        
+    
+        var popup_f6119bcbc4c3414083f24fd8ffddb68c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d4c38c6c5f3709b7db9007eb6f0bd351 = $(`<div id="html_d4c38c6c5f3709b7db9007eb6f0bd351" style="width: 100.0%; height: 100.0%;">Start: Kimbark Ave & 53rd St</div>`)[0];
+                popup_f6119bcbc4c3414083f24fd8ffddb68c.setContent(html_d4c38c6c5f3709b7db9007eb6f0bd351);
+            
+        
+
+        circle_marker_75a7b5ec78d34126c3f0ba2300ada7e4.bindPopup(popup_f6119bcbc4c3414083f24fd8ffddb68c)
+        ;
+
+        
+    
+    
+            var circle_marker_e629cb285c96568b0e6bff8633fbc4c8 = L.circleMarker(
+                [41.791478, -87.599861],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_e594c296fc554d53dd703387fb85bc47);
+        
+    
+        var popup_31b6dcd30db1c46bf04b195473493656 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_cf453aae733975c635ddad45891117d2 = $(`<div id="html_cf453aae733975c635ddad45891117d2" style="width: 100.0%; height: 100.0%;">End: University Ave & 57th St</div>`)[0];
+                popup_31b6dcd30db1c46bf04b195473493656.setContent(html_cf453aae733975c635ddad45891117d2);
+            
+        
+
+        circle_marker_e629cb285c96568b0e6bff8633fbc4c8.bindPopup(popup_31b6dcd30db1c46bf04b195473493656)
+        ;
+
+        
+    
+    
+            var poly_line_6969a3c0b7738494f5e5240f7e895671 = L.polyline(
+                [[41.793242, -87.587782], [41.791478, -87.599861]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 4}
+            ).addTo(map_e594c296fc554d53dd703387fb85bc47);
+        
+    
+            var circle_marker_0fa76c490b360131e78009b4fcfea961 = L.circleMarker(
+                [41.793242, -87.587782],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_e594c296fc554d53dd703387fb85bc47);
+        
+    
+        var popup_e217e015b9f6c8fac0913b3fd3bcb539 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5318904979210d02fbb6ae9e04125715 = $(`<div id="html_5318904979210d02fbb6ae9e04125715" style="width: 100.0%; height: 100.0%;">Start: Lake Park Ave & 56th St</div>`)[0];
+                popup_e217e015b9f6c8fac0913b3fd3bcb539.setContent(html_5318904979210d02fbb6ae9e04125715);
+            
+        
+
+        circle_marker_0fa76c490b360131e78009b4fcfea961.bindPopup(popup_e217e015b9f6c8fac0913b3fd3bcb539)
+        ;
+
+        
+    
+    
+            var circle_marker_5a5d86cafbee38eef8ffc09e7c626eb0 = L.circleMarker(
+                [41.791478, -87.599861],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_e594c296fc554d53dd703387fb85bc47);
+        
+    
+        var popup_95f8cdc81c5837c407325400ed9b7a25 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0ce2e5da93a92b069e5cd98afb8681e8 = $(`<div id="html_0ce2e5da93a92b069e5cd98afb8681e8" style="width: 100.0%; height: 100.0%;">End: University Ave & 57th St</div>`)[0];
+                popup_95f8cdc81c5837c407325400ed9b7a25.setContent(html_0ce2e5da93a92b069e5cd98afb8681e8);
+            
+        
+
+        circle_marker_5a5d86cafbee38eef8ffc09e7c626eb0.bindPopup(popup_95f8cdc81c5837c407325400ed9b7a25)
+        ;
+
+        
+    
+    
+            var poly_line_7a6283bc3ea2664ab58d0c440e825b9c = L.polyline(
+                [[41.872199416, -87.661282539], [41.871737, -87.65103]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 4}
+            ).addTo(map_e594c296fc554d53dd703387fb85bc47);
+        
+    
+            var circle_marker_f2558466c75ecab65a3e372a1736da57 = L.circleMarker(
+                [41.872199416, -87.661282539],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_e594c296fc554d53dd703387fb85bc47);
+        
+    
+        var popup_fb6f6159ffe3f310d68913cd13ceb15d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8c38288c8816fb4fc48a0d4f9aa4654e = $(`<div id="html_8c38288c8816fb4fc48a0d4f9aa4654e" style="width: 100.0%; height: 100.0%;">Start: Loomis St & Lexington St</div>`)[0];
+                popup_fb6f6159ffe3f310d68913cd13ceb15d.setContent(html_8c38288c8816fb4fc48a0d4f9aa4654e);
+            
+        
+
+        circle_marker_f2558466c75ecab65a3e372a1736da57.bindPopup(popup_fb6f6159ffe3f310d68913cd13ceb15d)
+        ;
+
+        
+    
+    
+            var circle_marker_ec3a5c130f081f15f83fe3ef6c90d0be = L.circleMarker(
+                [41.871737, -87.65103],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_e594c296fc554d53dd703387fb85bc47);
+        
+    
+        var popup_7860c82546234f495c502dd87e796b2a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f30b17be9f32183dbb7af29bf9593d5e = $(`<div id="html_f30b17be9f32183dbb7af29bf9593d5e" style="width: 100.0%; height: 100.0%;">End: Morgan St & Polk St</div>`)[0];
+                popup_7860c82546234f495c502dd87e796b2a.setContent(html_f30b17be9f32183dbb7af29bf9593d5e);
+            
+        
+
+        circle_marker_ec3a5c130f081f15f83fe3ef6c90d0be.bindPopup(popup_7860c82546234f495c502dd87e796b2a)
+        ;
+
+        
+    
+    
+            var poly_line_04d9b6593b760bbbe95220fd6b4f26f7 = L.polyline(
+                [[41.842052, -87.617], [41.834734, -87.625813]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 4}
+            ).addTo(map_e594c296fc554d53dd703387fb85bc47);
+        
+    
+            var circle_marker_9ba230838212fd7d2c2ba114216c5b73 = L.circleMarker(
+                [41.842052, -87.617],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_e594c296fc554d53dd703387fb85bc47);
+        
+    
+        var popup_226901b2fea7005c0ea98dd1280f7fcb = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_630650b310cb089287445650b6368ee2 = $(`<div id="html_630650b310cb089287445650b6368ee2" style="width: 100.0%; height: 100.0%;">Start: MLK Jr Dr & 29th St</div>`)[0];
+                popup_226901b2fea7005c0ea98dd1280f7fcb.setContent(html_630650b310cb089287445650b6368ee2);
+            
+        
+
+        circle_marker_9ba230838212fd7d2c2ba114216c5b73.bindPopup(popup_226901b2fea7005c0ea98dd1280f7fcb)
+        ;
+
+        
+    
+    
+            var circle_marker_0a812828cb6e9f0f5d4ef103d53f43d7 = L.circleMarker(
+                [41.834734, -87.625813],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_e594c296fc554d53dd703387fb85bc47);
+        
+    
+        var popup_8a92fb447e30efd8d80d610d0bb919b5 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_da3f4b3699cc64cd59b59d3ba3ef85b1 = $(`<div id="html_da3f4b3699cc64cd59b59d3ba3ef85b1" style="width: 100.0%; height: 100.0%;">End: State St & 33rd St</div>`)[0];
+                popup_8a92fb447e30efd8d80d610d0bb919b5.setContent(html_da3f4b3699cc64cd59b59d3ba3ef85b1);
+            
+        
+
+        circle_marker_0a812828cb6e9f0f5d4ef103d53f43d7.bindPopup(popup_8a92fb447e30efd8d80d610d0bb919b5)
+        ;
+
+        
+    
+    
+            var poly_line_a09d2fc85a7b42e5830ed1e29b79be2f = L.polyline(
+                [[41.872773, -87.623981], [41.872773, -87.623981]],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 4}
+            ).addTo(map_e594c296fc554d53dd703387fb85bc47);
+        
+    
+            var circle_marker_514d509479943217527825ecb9741767 = L.circleMarker(
+                [41.872773, -87.623981],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_e594c296fc554d53dd703387fb85bc47);
+        
+    
+        var popup_7b72382c8f0cd77f9f460d4e4bf236be = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b70bc87bb3320639090be890c3757e58 = $(`<div id="html_b70bc87bb3320639090be890c3757e58" style="width: 100.0%; height: 100.0%;">Start: Michigan Ave & 8th St</div>`)[0];
+                popup_7b72382c8f0cd77f9f460d4e4bf236be.setContent(html_b70bc87bb3320639090be890c3757e58);
+            
+        
+
+        circle_marker_514d509479943217527825ecb9741767.bindPopup(popup_7b72382c8f0cd77f9f460d4e4bf236be)
+        ;
+
+        
+    
+    
+            var circle_marker_a0b1a3f348c2ae9a5e17b6a009f792ff = L.circleMarker(
+                [41.872773, -87.623981],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_e594c296fc554d53dd703387fb85bc47);
+        
+    
+        var popup_a944137d8d088b6d4edb5ce271351b81 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1fcedb33c196b4fd63b3b4dad5c2648e = $(`<div id="html_1fcedb33c196b4fd63b3b4dad5c2648e" style="width: 100.0%; height: 100.0%;">End: Michigan Ave & 8th St</div>`)[0];
+                popup_a944137d8d088b6d4edb5ce271351b81.setContent(html_1fcedb33c196b4fd63b3b4dad5c2648e);
+            
+        
+
+        circle_marker_a0b1a3f348c2ae9a5e17b6a009f792ff.bindPopup(popup_a944137d8d088b6d4edb5ce271351b81)
+        ;
+
+        
+    
+    
+            var poly_line_a171d5681f456bf0951bfd18d85ec391 = L.polyline(
+                [[41.90096039, -87.62377664], [41.90096039, -87.62377664]],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 4}
+            ).addTo(map_e594c296fc554d53dd703387fb85bc47);
+        
+    
+            var circle_marker_1cdfbaeeb30a5b387c7726026768e0ea = L.circleMarker(
+                [41.90096039, -87.62377664],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_e594c296fc554d53dd703387fb85bc47);
+        
+    
+        var popup_f9db0517dadf14fa8d290b498636828a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3592ed56e24dc1dd205622540dbaf0a5 = $(`<div id="html_3592ed56e24dc1dd205622540dbaf0a5" style="width: 100.0%; height: 100.0%;">Start: Michigan Ave & Oak St</div>`)[0];
+                popup_f9db0517dadf14fa8d290b498636828a.setContent(html_3592ed56e24dc1dd205622540dbaf0a5);
+            
+        
+
+        circle_marker_1cdfbaeeb30a5b387c7726026768e0ea.bindPopup(popup_f9db0517dadf14fa8d290b498636828a)
+        ;
+
+        
+    
+    
+            var circle_marker_86ce1dd323a15b63a037868f9b65f028 = L.circleMarker(
+                [41.90096039, -87.62377664],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_e594c296fc554d53dd703387fb85bc47);
+        
+    
+        var popup_f7b8c1a6b689d3293c130749108c6b17 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_69b69833f050b878d47b5440744371ec = $(`<div id="html_69b69833f050b878d47b5440744371ec" style="width: 100.0%; height: 100.0%;">End: Michigan Ave & Oak St</div>`)[0];
+                popup_f7b8c1a6b689d3293c130749108c6b17.setContent(html_69b69833f050b878d47b5440744371ec);
+            
+        
+
+        circle_marker_86ce1dd323a15b63a037868f9b65f028.bindPopup(popup_f7b8c1a6b689d3293c130749108c6b17)
+        ;
+
+        
+    
+    
+            var poly_line_379d21b05417913813fbb703ff0f3035 = L.polyline(
+                [[41.8810317, -87.62408432], [41.8810317, -87.62408432]],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 4}
+            ).addTo(map_e594c296fc554d53dd703387fb85bc47);
+        
+    
+            var circle_marker_8cdd562612585455c3e3e637c1cdada1 = L.circleMarker(
+                [41.8810317, -87.62408432],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_e594c296fc554d53dd703387fb85bc47);
+        
+    
+        var popup_9bed24ad8a3744055d2acac254afc297 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e0f6f4b7c3886e609439078853a076b5 = $(`<div id="html_e0f6f4b7c3886e609439078853a076b5" style="width: 100.0%; height: 100.0%;">Start: Millennium Park</div>`)[0];
+                popup_9bed24ad8a3744055d2acac254afc297.setContent(html_e0f6f4b7c3886e609439078853a076b5);
+            
+        
+
+        circle_marker_8cdd562612585455c3e3e637c1cdada1.bindPopup(popup_9bed24ad8a3744055d2acac254afc297)
+        ;
+
+        
+    
+    
+            var circle_marker_b46ebb8a81da72dbafc478422786ebd9 = L.circleMarker(
+                [41.8810317, -87.62408432],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_e594c296fc554d53dd703387fb85bc47);
+        
+    
+        var popup_dc2160e885ec987f8e8747d217daeed2 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_02765fbf911a9d0692b77841fd06dd31 = $(`<div id="html_02765fbf911a9d0692b77841fd06dd31" style="width: 100.0%; height: 100.0%;">End: Millennium Park</div>`)[0];
+                popup_dc2160e885ec987f8e8747d217daeed2.setContent(html_02765fbf911a9d0692b77841fd06dd31);
+            
+        
+
+        circle_marker_b46ebb8a81da72dbafc478422786ebd9.bindPopup(popup_dc2160e885ec987f8e8747d217daeed2)
+        ;
+
+        
+    
+    
+            var poly_line_6f1dce8ab1c15919f932f193cfd01e88 = L.polyline(
+                [[41.963982, -87.638181], [41.963982, -87.638181]],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 4}
+            ).addTo(map_e594c296fc554d53dd703387fb85bc47);
+        
+    
+            var circle_marker_a7c35fa77b396d564763b0a47e403498 = L.circleMarker(
+                [41.963982, -87.638181],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_e594c296fc554d53dd703387fb85bc47);
+        
+    
+        var popup_42182ecc17251499567cd463cb7a5ef9 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ae362985cfe5dd0f0f47a69bddcc0769 = $(`<div id="html_ae362985cfe5dd0f0f47a69bddcc0769" style="width: 100.0%; height: 100.0%;">Start: Montrose Harbor</div>`)[0];
+                popup_42182ecc17251499567cd463cb7a5ef9.setContent(html_ae362985cfe5dd0f0f47a69bddcc0769);
+            
+        
+
+        circle_marker_a7c35fa77b396d564763b0a47e403498.bindPopup(popup_42182ecc17251499567cd463cb7a5ef9)
+        ;
+
+        
+    
+    
+            var circle_marker_07c951a0fe5caa51066ba228bec421d1 = L.circleMarker(
+                [41.963982, -87.638181],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_e594c296fc554d53dd703387fb85bc47);
+        
+    
+        var popup_7f8ac7571292e625a003b486faadfce6 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f089b49ae303064c32066d431c574bd4 = $(`<div id="html_f089b49ae303064c32066d431c574bd4" style="width: 100.0%; height: 100.0%;">End: Montrose Harbor</div>`)[0];
+                popup_7f8ac7571292e625a003b486faadfce6.setContent(html_f089b49ae303064c32066d431c574bd4);
+            
+        
+
+        circle_marker_07c951a0fe5caa51066ba228bec421d1.bindPopup(popup_7f8ac7571292e625a003b486faadfce6)
+        ;
+
+        
+    
+    
+            var poly_line_eb44370faa2f621c03dffdf943449039 = L.polyline(
+                [[41.871737, -87.65103], [41.87222873224032, -87.66136385500431]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 4}
+            ).addTo(map_e594c296fc554d53dd703387fb85bc47);
+        
+    
+            var circle_marker_7d98701aad7e32c1f3609b06fd7b9b2e = L.circleMarker(
+                [41.871737, -87.65103],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_e594c296fc554d53dd703387fb85bc47);
+        
+    
+        var popup_55ca07f00c671bcbd3b29ce43e8943cb = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e5c27fc9874523bc4442cbc8db20e53e = $(`<div id="html_e5c27fc9874523bc4442cbc8db20e53e" style="width: 100.0%; height: 100.0%;">Start: Morgan St & Polk St</div>`)[0];
+                popup_55ca07f00c671bcbd3b29ce43e8943cb.setContent(html_e5c27fc9874523bc4442cbc8db20e53e);
+            
+        
+
+        circle_marker_7d98701aad7e32c1f3609b06fd7b9b2e.bindPopup(popup_55ca07f00c671bcbd3b29ce43e8943cb)
+        ;
+
+        
+    
+    
+            var circle_marker_9840c63579a95bd4de59c462668de074 = L.circleMarker(
+                [41.87222873224032, -87.66136385500431],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_e594c296fc554d53dd703387fb85bc47);
+        
+    
+        var popup_84e6801ee7362a85852c76e4e2fce002 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5a6a8efaa4beb6f458db722befe49bf3 = $(`<div id="html_5a6a8efaa4beb6f458db722befe49bf3" style="width: 100.0%; height: 100.0%;">End: Loomis St & Lexington St</div>`)[0];
+                popup_84e6801ee7362a85852c76e4e2fce002.setContent(html_5a6a8efaa4beb6f458db722befe49bf3);
+            
+        
+
+        circle_marker_9840c63579a95bd4de59c462668de074.bindPopup(popup_84e6801ee7362a85852c76e4e2fce002)
+        ;
+
+        
+    
+    
+            var poly_line_f78c850b5cae514eb4353e38075eb642 = L.polyline(
+                [[41.86722595682, -87.6153553902], [41.880958, -87.616743]],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 4}
+            ).addTo(map_e594c296fc554d53dd703387fb85bc47);
+        
+    
+            var circle_marker_e8a945629e93b3d43980a593982ed9eb = L.circleMarker(
+                [41.86722595682, -87.6153553902],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_e594c296fc554d53dd703387fb85bc47);
+        
+    
+        var popup_4862d235c90f5dff1b6db78871bbd297 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e6f2111d5db9b41a6242f244bdd97f7f = $(`<div id="html_e6f2111d5db9b41a6242f244bdd97f7f" style="width: 100.0%; height: 100.0%;">Start: Shedd Aquarium</div>`)[0];
+                popup_4862d235c90f5dff1b6db78871bbd297.setContent(html_e6f2111d5db9b41a6242f244bdd97f7f);
+            
+        
+
+        circle_marker_e8a945629e93b3d43980a593982ed9eb.bindPopup(popup_4862d235c90f5dff1b6db78871bbd297)
+        ;
+
+        
+    
+    
+            var circle_marker_99fde1e197fb73f10c335f5382499ff6 = L.circleMarker(
+                [41.880958, -87.616743],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_e594c296fc554d53dd703387fb85bc47);
+        
+    
+        var popup_17c10e32c014c55338492d1e9d578c54 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_55f6619474088a26a4d542f1d09b90d2 = $(`<div id="html_55f6619474088a26a4d542f1d09b90d2" style="width: 100.0%; height: 100.0%;">End: DuSable Lake Shore Dr & Monroe St</div>`)[0];
+                popup_17c10e32c014c55338492d1e9d578c54.setContent(html_55f6619474088a26a4d542f1d09b90d2);
+            
+        
+
+        circle_marker_99fde1e197fb73f10c335f5382499ff6.bindPopup(popup_17c10e32c014c55338492d1e9d578c54)
+        ;
+
+        
+    
+    
+            var poly_line_2a32f5fd9f25da9ce1925f988cf04817 = L.polyline(
+                [[41.86722595682, -87.6153553902], [41.86722595682, -87.6153553902]],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 4}
+            ).addTo(map_e594c296fc554d53dd703387fb85bc47);
+        
+    
+            var circle_marker_5780c9251467bf8efc5b6ac22518194b = L.circleMarker(
+                [41.86722595682, -87.6153553902],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_e594c296fc554d53dd703387fb85bc47);
+        
+    
+        var popup_634fed2fa5bcdc1717ac48f0d8775afb = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a2b5ef1f6660a0c23ac60ff6b6ff861b = $(`<div id="html_a2b5ef1f6660a0c23ac60ff6b6ff861b" style="width: 100.0%; height: 100.0%;">Start: Shedd Aquarium</div>`)[0];
+                popup_634fed2fa5bcdc1717ac48f0d8775afb.setContent(html_a2b5ef1f6660a0c23ac60ff6b6ff861b);
+            
+        
+
+        circle_marker_5780c9251467bf8efc5b6ac22518194b.bindPopup(popup_634fed2fa5bcdc1717ac48f0d8775afb)
+        ;
+
+        
+    
+    
+            var circle_marker_8c0c7203cb5c80a82d64a1218e989027 = L.circleMarker(
+                [41.86722595682, -87.6153553902],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_e594c296fc554d53dd703387fb85bc47);
+        
+    
+        var popup_3222ff091f881a1ea4087720f7e40a77 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_99c4185232e24877506ee3eb2a73bca4 = $(`<div id="html_99c4185232e24877506ee3eb2a73bca4" style="width: 100.0%; height: 100.0%;">End: Shedd Aquarium</div>`)[0];
+                popup_3222ff091f881a1ea4087720f7e40a77.setContent(html_99c4185232e24877506ee3eb2a73bca4);
+            
+        
+
+        circle_marker_8c0c7203cb5c80a82d64a1218e989027.bindPopup(popup_3222ff091f881a1ea4087720f7e40a77)
+        ;
+
+        
+    
+    
+            var poly_line_a37ede62211da0073d462c55000d227e = L.polyline(
+                [[41.86722595682, -87.6153553902], [41.892278, -87.612043]],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 4}
+            ).addTo(map_e594c296fc554d53dd703387fb85bc47);
+        
+    
+            var circle_marker_b9776e82af61eb33d5b354a31c0f108e = L.circleMarker(
+                [41.86722595682, -87.6153553902],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_e594c296fc554d53dd703387fb85bc47);
+        
+    
+        var popup_5690183e2b2fd8126abbb78d5de85cae = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b77b2657b7a8b799afb80fac0059ea02 = $(`<div id="html_b77b2657b7a8b799afb80fac0059ea02" style="width: 100.0%; height: 100.0%;">Start: Shedd Aquarium</div>`)[0];
+                popup_5690183e2b2fd8126abbb78d5de85cae.setContent(html_b77b2657b7a8b799afb80fac0059ea02);
+            
+        
+
+        circle_marker_b9776e82af61eb33d5b354a31c0f108e.bindPopup(popup_5690183e2b2fd8126abbb78d5de85cae)
+        ;
+
+        
+    
+    
+            var circle_marker_8c0b19e32a6f8a5c1ef9ed01426d1e6d = L.circleMarker(
+                [41.892278, -87.612043],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_e594c296fc554d53dd703387fb85bc47);
+        
+    
+        var popup_2451fc57af9af3407240b35097eaf58d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_acbeb1c70d94165426e6a634fc40ec8f = $(`<div id="html_acbeb1c70d94165426e6a634fc40ec8f" style="width: 100.0%; height: 100.0%;">End: Streeter Dr & Grand Ave</div>`)[0];
+                popup_2451fc57af9af3407240b35097eaf58d.setContent(html_acbeb1c70d94165426e6a634fc40ec8f);
+            
+        
+
+        circle_marker_8c0b19e32a6f8a5c1ef9ed01426d1e6d.bindPopup(popup_2451fc57af9af3407240b35097eaf58d)
+        ;
+
+        
+    
+    
+            var poly_line_7bf0aa0ef3c0cfc5b1dad1a4e492a442 = L.polyline(
+                [[41.834734, -87.625813], [41.8349, -87.61793]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 4}
+            ).addTo(map_e594c296fc554d53dd703387fb85bc47);
+        
+    
+            var circle_marker_c7fb05d204de0ae1d21d25973c563854 = L.circleMarker(
+                [41.834734, -87.625813],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_e594c296fc554d53dd703387fb85bc47);
+        
+    
+        var popup_2c6ea6bfb8fdfc3e03d04fb16828f8e8 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_bfc12f1194452e40d70c34bcc96ed3ab = $(`<div id="html_bfc12f1194452e40d70c34bcc96ed3ab" style="width: 100.0%; height: 100.0%;">Start: State St & 33rd St</div>`)[0];
+                popup_2c6ea6bfb8fdfc3e03d04fb16828f8e8.setContent(html_bfc12f1194452e40d70c34bcc96ed3ab);
+            
+        
+
+        circle_marker_c7fb05d204de0ae1d21d25973c563854.bindPopup(popup_2c6ea6bfb8fdfc3e03d04fb16828f8e8)
+        ;
+
+        
+    
+    
+            var circle_marker_ca7fb7ff464e181c9789712ce78bd340 = L.circleMarker(
+                [41.8349, -87.61793],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_e594c296fc554d53dd703387fb85bc47);
+        
+    
+        var popup_4e35de4eedd0826242c41acbe6a802ba = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ea0188c02f5d47037fbf0db6a40965ad = $(`<div id="html_ea0188c02f5d47037fbf0db6a40965ad" style="width: 100.0%; height: 100.0%;">End: Calumet Ave & 33rd St</div>`)[0];
+                popup_4e35de4eedd0826242c41acbe6a802ba.setContent(html_ea0188c02f5d47037fbf0db6a40965ad);
+            
+        
+
+        circle_marker_ca7fb7ff464e181c9789712ce78bd340.bindPopup(popup_4e35de4eedd0826242c41acbe6a802ba)
+        ;
+
+        
+    
+    
+            var poly_line_2eb1129b04c6318d4649e570fffff861 = L.polyline(
+                [[41.892278, -87.612043], [41.880958, -87.616743]],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 4}
+            ).addTo(map_e594c296fc554d53dd703387fb85bc47);
+        
+    
+            var circle_marker_5b10276146f90d2faa1b484412b8ed5a = L.circleMarker(
+                [41.892278, -87.612043],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_e594c296fc554d53dd703387fb85bc47);
+        
+    
+        var popup_6b75cd71bea965718b6ec57335c85677 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9dbab34d7c704ee845af0e5a99a19916 = $(`<div id="html_9dbab34d7c704ee845af0e5a99a19916" style="width: 100.0%; height: 100.0%;">Start: Streeter Dr & Grand Ave</div>`)[0];
+                popup_6b75cd71bea965718b6ec57335c85677.setContent(html_9dbab34d7c704ee845af0e5a99a19916);
+            
+        
+
+        circle_marker_5b10276146f90d2faa1b484412b8ed5a.bindPopup(popup_6b75cd71bea965718b6ec57335c85677)
+        ;
+
+        
+    
+    
+            var circle_marker_fd0bcba6d6c5e09077302df332b422c7 = L.circleMarker(
+                [41.880958, -87.616743],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_e594c296fc554d53dd703387fb85bc47);
+        
+    
+        var popup_c44cbd992ac23016ecd5aea9d472ed51 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_34dd1c5707aba43b5a7879e69e71aaa1 = $(`<div id="html_34dd1c5707aba43b5a7879e69e71aaa1" style="width: 100.0%; height: 100.0%;">End: DuSable Lake Shore Dr & Monroe St</div>`)[0];
+                popup_c44cbd992ac23016ecd5aea9d472ed51.setContent(html_34dd1c5707aba43b5a7879e69e71aaa1);
+            
+        
+
+        circle_marker_fd0bcba6d6c5e09077302df332b422c7.bindPopup(popup_c44cbd992ac23016ecd5aea9d472ed51)
+        ;
+
+        
+    
+    
+            var poly_line_230b14979822bd37e4c91d4912ede674 = L.polyline(
+                [[41.892278, -87.612043], [41.911722, -87.626804]],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 4}
+            ).addTo(map_e594c296fc554d53dd703387fb85bc47);
+        
+    
+            var circle_marker_5cef9b33d4242294d6e9e6b7536ea15f = L.circleMarker(
+                [41.892278, -87.612043],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_e594c296fc554d53dd703387fb85bc47);
+        
+    
+        var popup_48ccf9e5b16caeee9a0040c6422e0915 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ad2f710550a14b9f49a9f04d9bc0b9ea = $(`<div id="html_ad2f710550a14b9f49a9f04d9bc0b9ea" style="width: 100.0%; height: 100.0%;">Start: Streeter Dr & Grand Ave</div>`)[0];
+                popup_48ccf9e5b16caeee9a0040c6422e0915.setContent(html_ad2f710550a14b9f49a9f04d9bc0b9ea);
+            
+        
+
+        circle_marker_5cef9b33d4242294d6e9e6b7536ea15f.bindPopup(popup_48ccf9e5b16caeee9a0040c6422e0915)
+        ;
+
+        
+    
+    
+            var circle_marker_10010982558fa867e8064194bb1e620c = L.circleMarker(
+                [41.911722, -87.626804],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_e594c296fc554d53dd703387fb85bc47);
+        
+    
+        var popup_9e12583d05832e421e98e81ed4f23119 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3d2d243f089d9e741c2fbb512c2737de = $(`<div id="html_3d2d243f089d9e741c2fbb512c2737de" style="width: 100.0%; height: 100.0%;">End: DuSable Lake Shore Dr & North Blvd</div>`)[0];
+                popup_9e12583d05832e421e98e81ed4f23119.setContent(html_3d2d243f089d9e741c2fbb512c2737de);
+            
+        
+
+        circle_marker_10010982558fa867e8064194bb1e620c.bindPopup(popup_9e12583d05832e421e98e81ed4f23119)
+        ;
+
+        
+    
+    
+            var poly_line_9cca34f3c1db81dea5abc31d43d592ab = L.polyline(
+                [[41.892332435, -87.612078667], [41.90096039, -87.62377664]],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 4}
+            ).addTo(map_e594c296fc554d53dd703387fb85bc47);
+        
+    
+            var circle_marker_c4d78fd94122bba8fbd66bc071c6176f = L.circleMarker(
+                [41.892332435, -87.612078667],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_e594c296fc554d53dd703387fb85bc47);
+        
+    
+        var popup_9141d1cb92e43e0f2c77ee5554119a58 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_30f38121290a7d13dcec8ab6d8d3a46b = $(`<div id="html_30f38121290a7d13dcec8ab6d8d3a46b" style="width: 100.0%; height: 100.0%;">Start: Streeter Dr & Grand Ave</div>`)[0];
+                popup_9141d1cb92e43e0f2c77ee5554119a58.setContent(html_30f38121290a7d13dcec8ab6d8d3a46b);
+            
+        
+
+        circle_marker_c4d78fd94122bba8fbd66bc071c6176f.bindPopup(popup_9141d1cb92e43e0f2c77ee5554119a58)
+        ;
+
+        
+    
+    
+            var circle_marker_660e3369ba33a2874386664e33572b73 = L.circleMarker(
+                [41.90096039, -87.62377664],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_e594c296fc554d53dd703387fb85bc47);
+        
+    
+        var popup_6491372f6ac550808a5c664a0dc310a7 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9b726c96855ee4cfac6265fe07382683 = $(`<div id="html_9b726c96855ee4cfac6265fe07382683" style="width: 100.0%; height: 100.0%;">End: Michigan Ave & Oak St</div>`)[0];
+                popup_6491372f6ac550808a5c664a0dc310a7.setContent(html_9b726c96855ee4cfac6265fe07382683);
+            
+        
+
+        circle_marker_660e3369ba33a2874386664e33572b73.bindPopup(popup_6491372f6ac550808a5c664a0dc310a7)
+        ;
+
+        
+    
+    
+            var poly_line_f159e8add7526af19d8221a04f2a82d4 = L.polyline(
+                [[41.892278, -87.612043], [41.8810317, -87.62408432]],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 4}
+            ).addTo(map_e594c296fc554d53dd703387fb85bc47);
+        
+    
+            var circle_marker_721fa0615fbbc7b1a1b154d384161bca = L.circleMarker(
+                [41.892278, -87.612043],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_e594c296fc554d53dd703387fb85bc47);
+        
+    
+        var popup_afbce164a4f38e30f201645f0c7f4c74 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2a6f5469d29da296f62c87b98697a8b0 = $(`<div id="html_2a6f5469d29da296f62c87b98697a8b0" style="width: 100.0%; height: 100.0%;">Start: Streeter Dr & Grand Ave</div>`)[0];
+                popup_afbce164a4f38e30f201645f0c7f4c74.setContent(html_2a6f5469d29da296f62c87b98697a8b0);
+            
+        
+
+        circle_marker_721fa0615fbbc7b1a1b154d384161bca.bindPopup(popup_afbce164a4f38e30f201645f0c7f4c74)
+        ;
+
+        
+    
+    
+            var circle_marker_1a8ebf5dfb9f6a4348ffedab0e8ef2f3 = L.circleMarker(
+                [41.8810317, -87.62408432],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_e594c296fc554d53dd703387fb85bc47);
+        
+    
+        var popup_228c14426bdf6b40392785797a5f1d36 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_fee009631575c5d2b917fc3aebe09858 = $(`<div id="html_fee009631575c5d2b917fc3aebe09858" style="width: 100.0%; height: 100.0%;">End: Millennium Park</div>`)[0];
+                popup_228c14426bdf6b40392785797a5f1d36.setContent(html_fee009631575c5d2b917fc3aebe09858);
+            
+        
+
+        circle_marker_1a8ebf5dfb9f6a4348ffedab0e8ef2f3.bindPopup(popup_228c14426bdf6b40392785797a5f1d36)
+        ;
+
+        
+    
+    
+            var poly_line_87ed2102352baf2ee8b82dbd5c159159 = L.polyline(
+                [[41.892278, -87.612043], [41.892278, -87.612043]],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 4}
+            ).addTo(map_e594c296fc554d53dd703387fb85bc47);
+        
+    
+            var circle_marker_f93e4295a176bc9a87811f6743fe1307 = L.circleMarker(
+                [41.892278, -87.612043],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_e594c296fc554d53dd703387fb85bc47);
+        
+    
+        var popup_7ade634ea9141f931f442561163352d7 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_57500ecfa6a055c45248709c41eec9e3 = $(`<div id="html_57500ecfa6a055c45248709c41eec9e3" style="width: 100.0%; height: 100.0%;">Start: Streeter Dr & Grand Ave</div>`)[0];
+                popup_7ade634ea9141f931f442561163352d7.setContent(html_57500ecfa6a055c45248709c41eec9e3);
+            
+        
+
+        circle_marker_f93e4295a176bc9a87811f6743fe1307.bindPopup(popup_7ade634ea9141f931f442561163352d7)
+        ;
+
+        
+    
+    
+            var circle_marker_a0da154b33ae64e36a6b5857ef27fca3 = L.circleMarker(
+                [41.892278, -87.612043],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_e594c296fc554d53dd703387fb85bc47);
+        
+    
+        var popup_b3c70577b811d90c6e1a80405b79d803 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9a99337920dcf50556322bbea1d417ab = $(`<div id="html_9a99337920dcf50556322bbea1d417ab" style="width: 100.0%; height: 100.0%;">End: Streeter Dr & Grand Ave</div>`)[0];
+                popup_b3c70577b811d90c6e1a80405b79d803.setContent(html_9a99337920dcf50556322bbea1d417ab);
+            
+        
+
+        circle_marker_a0da154b33ae64e36a6b5857ef27fca3.bindPopup(popup_b3c70577b811d90c6e1a80405b79d803)
+        ;
+
+        
+    
+    
+            var poly_line_52df3fd24d447aaa38a0e28e0bba2186 = L.polyline(
+                [[41.892278, -87.612043], [41.926277, -87.630834]],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 4}
+            ).addTo(map_e594c296fc554d53dd703387fb85bc47);
+        
+    
+            var circle_marker_d202308772f1c3d72e018ceda7e14969 = L.circleMarker(
+                [41.892278, -87.612043],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_e594c296fc554d53dd703387fb85bc47);
+        
+    
+        var popup_87798f405a6c366ad38ea0daaa49cd8f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_00523a3f362420f189060cc987f077e4 = $(`<div id="html_00523a3f362420f189060cc987f077e4" style="width: 100.0%; height: 100.0%;">Start: Streeter Dr & Grand Ave</div>`)[0];
+                popup_87798f405a6c366ad38ea0daaa49cd8f.setContent(html_00523a3f362420f189060cc987f077e4);
+            
+        
+
+        circle_marker_d202308772f1c3d72e018ceda7e14969.bindPopup(popup_87798f405a6c366ad38ea0daaa49cd8f)
+        ;
+
+        
+    
+    
+            var circle_marker_5f95365a312c0899433a7078a1b30ffb = L.circleMarker(
+                [41.926277, -87.630834],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_e594c296fc554d53dd703387fb85bc47);
+        
+    
+        var popup_5c1a88f922da0bab85963df93e1c423f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_87fb21079ee8f70af8e3b8e5c23f4573 = $(`<div id="html_87fb21079ee8f70af8e3b8e5c23f4573" style="width: 100.0%; height: 100.0%;">End: Theater on the Lake</div>`)[0];
+                popup_5c1a88f922da0bab85963df93e1c423f.setContent(html_87fb21079ee8f70af8e3b8e5c23f4573);
+            
+        
+
+        circle_marker_5f95365a312c0899433a7078a1b30ffb.bindPopup(popup_5c1a88f922da0bab85963df93e1c423f)
+        ;
+
+        
+    
+    
+            var poly_line_eabbcc297dfce12a01855db448c992a0 = L.polyline(
+                [[41.926216841, -87.630974293], [41.926277, -87.630834]],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 4}
+            ).addTo(map_e594c296fc554d53dd703387fb85bc47);
+        
+    
+            var circle_marker_7847296d75cc86c1349ad8ba3b5d0d0e = L.circleMarker(
+                [41.926216841, -87.630974293],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_e594c296fc554d53dd703387fb85bc47);
+        
+    
+        var popup_95307ba3461363961cf90d1fbbb441d7 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_43f116b5aeb037db6ab8fbc67556292f = $(`<div id="html_43f116b5aeb037db6ab8fbc67556292f" style="width: 100.0%; height: 100.0%;">Start: Theater on the Lake</div>`)[0];
+                popup_95307ba3461363961cf90d1fbbb441d7.setContent(html_43f116b5aeb037db6ab8fbc67556292f);
+            
+        
+
+        circle_marker_7847296d75cc86c1349ad8ba3b5d0d0e.bindPopup(popup_95307ba3461363961cf90d1fbbb441d7)
+        ;
+
+        
+    
+    
+            var circle_marker_d234a0df8309388a639aefb9bb5550f7 = L.circleMarker(
+                [41.926277, -87.630834],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_e594c296fc554d53dd703387fb85bc47);
+        
+    
+        var popup_5c0d4fc8e205cfd584cdc56c81c85787 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e18db3e3da0a1f1abd441eac26e521aa = $(`<div id="html_e18db3e3da0a1f1abd441eac26e521aa" style="width: 100.0%; height: 100.0%;">End: Theater on the Lake</div>`)[0];
+                popup_5c0d4fc8e205cfd584cdc56c81c85787.setContent(html_e18db3e3da0a1f1abd441eac26e521aa);
+            
+        
+
+        circle_marker_d234a0df8309388a639aefb9bb5550f7.bindPopup(popup_5c0d4fc8e205cfd584cdc56c81c85787)
+        ;
+
+        
+    
+    
+            var poly_line_477c9ff3bbb03fed01be2a8e3b77f17e = L.polyline(
+                [[41.791502833, -87.599894881], [41.78509714636, -87.6010727606]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 4}
+            ).addTo(map_e594c296fc554d53dd703387fb85bc47);
+        
+    
+            var circle_marker_4c98ae3d5c2fb1a4ca4f39463d731817 = L.circleMarker(
+                [41.791502833, -87.599894881],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_e594c296fc554d53dd703387fb85bc47);
+        
+    
+        var popup_3f80ce59457189b0886d33cbd8b1c2c8 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d70efec823d48ae5aa7a2e6034a478cb = $(`<div id="html_d70efec823d48ae5aa7a2e6034a478cb" style="width: 100.0%; height: 100.0%;">Start: University Ave & 57th St</div>`)[0];
+                popup_3f80ce59457189b0886d33cbd8b1c2c8.setContent(html_d70efec823d48ae5aa7a2e6034a478cb);
+            
+        
+
+        circle_marker_4c98ae3d5c2fb1a4ca4f39463d731817.bindPopup(popup_3f80ce59457189b0886d33cbd8b1c2c8)
+        ;
+
+        
+    
+    
+            var circle_marker_8bd3d5348eae51bef155e082ff0317ab = L.circleMarker(
+                [41.78509714636, -87.6010727606],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_e594c296fc554d53dd703387fb85bc47);
+        
+    
+        var popup_46dfaa4198cd39a2d7c879b6733c3a7e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3e1dc4ea42f5334fd0c5329e6976c96c = $(`<div id="html_3e1dc4ea42f5334fd0c5329e6976c96c" style="width: 100.0%; height: 100.0%;">End: Ellis Ave & 60th St</div>`)[0];
+                popup_46dfaa4198cd39a2d7c879b6733c3a7e.setContent(html_3e1dc4ea42f5334fd0c5329e6976c96c);
+            
+        
+
+        circle_marker_8bd3d5348eae51bef155e082ff0317ab.bindPopup(popup_46dfaa4198cd39a2d7c879b6733c3a7e)
+        ;
+
+        
+    
+    
+            var poly_line_a4f97b3d377811380340687267542879 = L.polyline(
+                [[41.791478, -87.599861], [41.799568, -87.594747]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 4}
+            ).addTo(map_e594c296fc554d53dd703387fb85bc47);
+        
+    
+            var circle_marker_9b1f02ac6b36e9c78713353a7da9357a = L.circleMarker(
+                [41.791478, -87.599861],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_e594c296fc554d53dd703387fb85bc47);
+        
+    
+        var popup_053c006df7aca94e3938b6d9f9aea1e9 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ccc0d8939e38bd57f895157c9420468d = $(`<div id="html_ccc0d8939e38bd57f895157c9420468d" style="width: 100.0%; height: 100.0%;">Start: University Ave & 57th St</div>`)[0];
+                popup_053c006df7aca94e3938b6d9f9aea1e9.setContent(html_ccc0d8939e38bd57f895157c9420468d);
+            
+        
+
+        circle_marker_9b1f02ac6b36e9c78713353a7da9357a.bindPopup(popup_053c006df7aca94e3938b6d9f9aea1e9)
+        ;
+
+        
+    
+    
+            var circle_marker_d1af2a9bfe65c936d5bd458031330151 = L.circleMarker(
+                [41.799568, -87.594747],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_e594c296fc554d53dd703387fb85bc47);
+        
+    
+        var popup_5362ce93ed4c7da1be2461fdb8adf8cf = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_15ed36ec39adcb0389450f13cbfcbfb1 = $(`<div id="html_15ed36ec39adcb0389450f13cbfcbfb1" style="width: 100.0%; height: 100.0%;">End: Kimbark Ave & 53rd St</div>`)[0];
+                popup_5362ce93ed4c7da1be2461fdb8adf8cf.setContent(html_15ed36ec39adcb0389450f13cbfcbfb1);
+            
+        
+
+        circle_marker_d1af2a9bfe65c936d5bd458031330151.bindPopup(popup_5362ce93ed4c7da1be2461fdb8adf8cf)
+        ;
+
+        
+    
+    
+            var poly_line_d85be438e027c2f683bece8d36b54ffe = L.polyline(
+                [[41.791478, -87.599861], [41.793242, -87.587782]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 4}
+            ).addTo(map_e594c296fc554d53dd703387fb85bc47);
+        
+    
+            var circle_marker_cb980a135a7dbd67ed7c95a7fbeab540 = L.circleMarker(
+                [41.791478, -87.599861],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_e594c296fc554d53dd703387fb85bc47);
+        
+    
+        var popup_06adb6c624f8ea9d2b73eabfacce2ace = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2cb36c397c31bdcc8d741a43332a7234 = $(`<div id="html_2cb36c397c31bdcc8d741a43332a7234" style="width: 100.0%; height: 100.0%;">Start: University Ave & 57th St</div>`)[0];
+                popup_06adb6c624f8ea9d2b73eabfacce2ace.setContent(html_2cb36c397c31bdcc8d741a43332a7234);
+            
+        
+
+        circle_marker_cb980a135a7dbd67ed7c95a7fbeab540.bindPopup(popup_06adb6c624f8ea9d2b73eabfacce2ace)
+        ;
+
+        
+    
+    
+            var circle_marker_8923f7ea19294b1e039a7acc12db8f96 = L.circleMarker(
+                [41.793242, -87.587782],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_e594c296fc554d53dd703387fb85bc47);
+        
+    
+        var popup_7a329fdc1c8de6bfdab96e59cbc6c6af = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f7867ea070fc5571b4327fd03ccce104 = $(`<div id="html_f7867ea070fc5571b4327fd03ccce104" style="width: 100.0%; height: 100.0%;">End: Lake Park Ave & 56th St</div>`)[0];
+                popup_7a329fdc1c8de6bfdab96e59cbc6c6af.setContent(html_f7867ea070fc5571b4327fd03ccce104);
+            
+        
+
+        circle_marker_8923f7ea19294b1e039a7acc12db8f96.bindPopup(popup_7a329fdc1c8de6bfdab96e59cbc6c6af)
+        ;
+
+        
+    
+</script>
+</html>
